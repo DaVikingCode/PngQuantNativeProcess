@@ -1,5 +1,6 @@
 *.swf
 *.csproj
 *.sln
+*.userprefs
 Unity/Library/
 Unity/Temp/

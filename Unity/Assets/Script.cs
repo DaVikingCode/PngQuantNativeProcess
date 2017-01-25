@@ -20,6 +20,9 @@ public class Script : MonoBehaviour {
 
 		process.StartInfo.FileName = Application.dataPath + "/../../" + exec;
 		process.StartInfo.Arguments = Application.dataPath + "/../../png-to-compress";
+		
+		process.StartInfo.CreateNoWindow = true;
+		process.StartInfo.UseShellExecute = false;
 
 		process.Start();
 	}

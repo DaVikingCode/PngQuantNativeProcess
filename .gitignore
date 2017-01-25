@@ -2,5 +2,5 @@
 *.csproj
 *.sln
 *.userprefs
-Unity/Library/
-Unity/Temp/
+C#-Unity/Library/
+C#-Unity/Temp/

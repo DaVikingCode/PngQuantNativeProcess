@@ -2,7 +2,7 @@
 
 [pngquant](https://pngquant.org/) is a command-line utility and a library for lossy compression of PNG images. The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency.
 
-With this repository, we offer examples running pngquant as a native process from Unity and Adobe AIR.
+With this repository, we offer examples running pngquant as a native process from C#, Unity and Adobe AIR.
 
 This repository comes with two command lines script:
 - `pngquant-windows.cmd` a batch file for Windows OS executing `pngquant.exe`.

@@ -1,1 +1,5 @@
 *.swf
+*.csproj
+*.sln
+Unity/Library/
+Unity/Temp/

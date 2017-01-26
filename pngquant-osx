@@ -4,4 +4,4 @@
 
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 
-(cd "$DIR" && ./pngquant -f --ext .png $1/*.png)
+(cd "$DIR" && ./pngquant -f --ext .png "$1"/*.png)

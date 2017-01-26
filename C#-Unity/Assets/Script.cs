@@ -22,7 +22,7 @@ public class Script : MonoBehaviour {
 		process.StartInfo.Arguments = Application.dataPath + "/../../png-to-compress";
 
 		// if your path have blank spaces use:
-		//process.StartInfo.Arguments = "'" + Application.persistentDataPath + "/Character/'";
+		//process.StartInfo.Arguments = "\"" + Application.dataPath + "/../../png compress\"";
 		
 		process.StartInfo.CreateNoWindow = true;
 		process.StartInfo.UseShellExecute = false;

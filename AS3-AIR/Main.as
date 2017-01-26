@@ -34,6 +34,10 @@
 			startupInfo.arguments = processArgs;
 
 			process.start(startupInfo);
+			
+			// if your path have blank spaces, can't success to make it working with Windows. See:
+			// https://forums.adobe.com/thread/861303
+			// http://stackoverflow.com/questions/6228515/adobe-air-nativeprocess-fails-with-spaces-in-arguments
 
 			process.addEventListener(ProgressEvent.STANDARD_OUTPUT_DATA, onOutputData);
 			process.addEventListener(ProgressEvent.STANDARD_ERROR_DATA, onErrorData);

@@ -13,3 +13,5 @@ To start pngquant process, you've to execute the correct command line script (co
 Don't forget to ship pngquant and the command lines script with your application:
 - with Adobe AIR, put them in the *Package Contents*.
 - with Unity, add them inside the *StreamingAssets* folder.
+
+*Warning: Unity API Compatibility Level must be .NET 2.0 **without Subset**, otherwise Process events won't work in final build!*
